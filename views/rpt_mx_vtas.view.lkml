@@ -82,7 +82,9 @@ view: rpt_mx_vtas {
   dimension: planta_desc {
     label: "planta_desc"
     type: string
-    sql: ${TABLE}.name1 ;;
+    #sql: ${TABLE}.name1
+    sql: ${TABLE}.PLANT
+    ;;
   }
 
 
